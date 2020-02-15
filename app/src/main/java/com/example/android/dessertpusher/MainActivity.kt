@@ -173,6 +173,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     override fun onRestart() {
         super.onRestart()
         Timber.i("onRestart called")
+        dessertsSold = 0
     }
 
     override fun onStop() {
